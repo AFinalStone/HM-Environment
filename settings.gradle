@@ -1,0 +1,1 @@
+include ':app', ':environment-switch-base', 'compiler-debug', 'compiler-release', ':environment-switch'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HM-EnvironmentSwitch.iml" filepath="$PROJECT_DIR$/HM-EnvironmentSwitch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler-debug/compiler-debug.iml" filepath="$PROJECT_DIR$/compiler-debug/compiler-debug.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compiler-release/compiler-release.iml" filepath="$PROJECT_DIR$/compiler-release/compiler-release.iml" />
+      <module fileurl="file://$PROJECT_DIR$/environment-switch/environment-switch.iml" filepath="$PROJECT_DIR$/environment-switch/environment-switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/environment-switch-base/environment-switch-base.iml" filepath="$PROJECT_DIR$/environment-switch-base/environment-switch-base.iml" />
+    </modules>
+  </component>
+</project>
