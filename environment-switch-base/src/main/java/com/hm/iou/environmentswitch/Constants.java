@@ -4,7 +4,7 @@ public interface Constants {
 
     String ENVIRONMENT_SWITCHER_FILE_NAME = "EnvironmentSwitcher";
 
-    String PACKAGE_NAME = "com.hm.iou.environmentswitcher";
+    String PACKAGE_NAME = "com.hm.iou.environmentswitch";
 
     String METHOD_NAME_GET_MODULE_LIST = "getModuleList";
 

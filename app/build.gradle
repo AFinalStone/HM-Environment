@@ -35,7 +35,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 
-    implementation project(':environment-switch')
-    debugAnnotationProcessor project(':compiler-debug')
-    releaseAnnotationProcessor project(':compiler-release')
+    //环境切换
+    compile 'com.heima.iou:hmenvironmentbase:1.0.0'
+    compile 'com.heima.iou:hmenvironmentswitch:1.0.0'
+    debugAnnotationProcessor 'com.heima.iou:hmenvironmentcompilerdebug:1.0.0'
+    releaseAnnotationProcessor 'com.heima.iou:hmenvironmentcompilerrelease:1.0.0'
 }

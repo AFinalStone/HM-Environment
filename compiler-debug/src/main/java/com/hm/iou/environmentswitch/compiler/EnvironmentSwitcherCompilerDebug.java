@@ -29,6 +29,10 @@ import javax.lang.model.element.Element;
 import javax.lang.model.element.Modifier;
 import javax.lang.model.element.TypeElement;
 
+/**
+ * @author syl
+ * @time 2018/10/23 下午4:06
+ */
 @AutoService(Processor.class)
 public class EnvironmentSwitcherCompilerDebug extends AbstractProcessor {
 
@@ -348,7 +352,7 @@ public class EnvironmentSwitcherCompilerDebug extends AbstractProcessor {
                 String alias = environmentAnnotation.alias();
 
                 //添加属性
-                FieldSpec environmentField = generateEnvironmentField(moduleUpperCaseName, environmentName, environmentUpperCaseName, url, alias);
+                FieldSpec environmentField = generateEnvironmentField(moduleAnnotation, moduleUpperCaseName, environmentName, environmentUpperCaseName, url, alias);
 
                 environmentSwitcherClassBuilder.addField(environmentField);
 //            为MODULE_ONLINE添加属性
@@ -399,7 +403,7 @@ public class EnvironmentSwitcherCompilerDebug extends AbstractProcessor {
         return true;
     }
 
-    protected FieldSpec generateEnvironmentField(String moduleUpperCaseName,
+    protected FieldSpec generateEnvironmentField(Module moduleAnnotation, String moduleUpperCaseName,
                                                  String environmentName,
                                                  String environmentUpperCaseName,
                                                  String url,
