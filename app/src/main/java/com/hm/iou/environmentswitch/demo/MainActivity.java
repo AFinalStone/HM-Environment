@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.hm.iou.environmentswitch.business.view.EnvironmentSwitchActivity;
-import com.hm.iou.environmentswitcher.EnvironmentSwitcher;
+import com.hm.iou.environmentswitch.EnvironmentSwitcher;
 import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
 import com.hm.iou.environmentswitcher.bean.ModuleBean;
 import com.hm.iou.environmentswitcher.listener.OnEnvironmentChangeListener;

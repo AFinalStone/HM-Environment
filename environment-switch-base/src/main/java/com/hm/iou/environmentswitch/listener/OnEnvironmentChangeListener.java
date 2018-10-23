@@ -1,7 +1,7 @@
-package com.hm.iou.environmentswitcher.listener;
+package com.hm.iou.environmentswitch.listener;
 
-import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
+import com.hm.iou.environmentswitch.bean.EnvironmentBean;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
 
 /**
  * 当某个模块的环境更改时要调用的回调的接口定义。

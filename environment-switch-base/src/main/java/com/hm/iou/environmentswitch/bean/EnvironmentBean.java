@@ -1,12 +1,14 @@
-package com.hm.iou.environmentswitcher.bean;
+package com.hm.iou.environmentswitch.bean;
+
+import com.hm.iou.environmentswitch.annotation.Environment;
 
 import java.io.Serializable;
 
 /**
- * 每个被 {@link com.hm.iou.environmentswitcher.annotation.Environment} 标记的属性，在编译时都会在
+ * 每个被 {@link Environment} 标记的属性，在编译时都会在
  * EnvironmentSwitcher.java 文件中生成与之一一对应的 {@link EnvironmentBean}。
  * <p>
- * Each attribute marked by {@link com.hm.iou.environmentswitcher.annotation.Environment}
+ * Each attribute marked by {@link Environment}
  * will generate a one-to-one correspondence with {@link EnvironmentBean} in the  EnvironmentSwitcher.java file at compile time.
  */
 public class EnvironmentBean implements Serializable {

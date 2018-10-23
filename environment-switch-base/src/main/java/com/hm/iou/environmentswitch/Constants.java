@@ -1,4 +1,4 @@
-package com.hm.iou.environmentswitcher;
+package com.hm.iou.environmentswitch;
 
 public interface Constants {
 

@@ -1,12 +1,12 @@
-package com.hm.iou.environmentswitcher.compiler;
+package com.hm.iou.environmentswitch.compiler;
 
 import com.google.auto.service.AutoService;
-import com.hm.iou.environmentswitcher.Constants;
-import com.hm.iou.environmentswitcher.annotation.Environment;
-import com.hm.iou.environmentswitcher.annotation.Module;
-import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
-import com.hm.iou.environmentswitcher.listener.OnEnvironmentChangeListener;
+import com.hm.iou.environmentswitch.Constants;
+import com.hm.iou.environmentswitch.annotation.Environment;
+import com.hm.iou.environmentswitch.annotation.Module;
+import com.hm.iou.environmentswitch.bean.EnvironmentBean;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
+import com.hm.iou.environmentswitch.listener.OnEnvironmentChangeListener;
 import com.squareup.javapoet.ClassName;
 import com.squareup.javapoet.CodeBlock;
 import com.squareup.javapoet.FieldSpec;

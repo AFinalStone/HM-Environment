@@ -1,4 +1,4 @@
-package com.hm.iou.environmentswitcher.annotation;
+package com.hm.iou.environmentswitch.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

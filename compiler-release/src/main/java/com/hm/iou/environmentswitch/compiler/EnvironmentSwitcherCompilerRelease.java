@@ -1,8 +1,7 @@
-package com.hm.iou.environmentswitcher.compiler;
+package com.hm.iou.environmentswitch.compiler;
 
 import com.google.auto.service.AutoService;
-import com.hm.iou.environmentswitcher.annotation.Environment;
-import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
+import com.hm.iou.environmentswitch.bean.EnvironmentBean;
 import com.squareup.javapoet.FieldSpec;
 
 import javax.annotation.processing.Processor;

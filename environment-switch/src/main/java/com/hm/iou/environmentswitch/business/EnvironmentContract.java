@@ -1,7 +1,7 @@
 package com.hm.iou.environmentswitch.business;
 
 import com.hm.iou.base.mvp.BaseContract;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
 
 import java.util.List;
 

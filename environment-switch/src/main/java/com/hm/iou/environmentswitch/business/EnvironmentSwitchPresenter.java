@@ -2,18 +2,14 @@ package com.hm.iou.environmentswitch.business;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
-import android.widget.ListView;
 
 import com.hm.iou.base.mvp.MvpActivityPresenter;
-import com.hm.iou.environmentswitch.business.view.EnvironmentSwitchActivity;
-import com.hm.iou.environmentswitcher.Constants;
-import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
+import com.hm.iou.environmentswitch.Constants;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Created by syl on 2018/10/22.

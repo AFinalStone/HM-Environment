@@ -10,10 +10,10 @@ import android.widget.TextView;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
+import com.hm.iou.environmentswitch.Constants;
 import com.hm.iou.environmentswitch.R;
-import com.hm.iou.environmentswitcher.Constants;
-import com.hm.iou.environmentswitcher.bean.EnvironmentBean;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
+import com.hm.iou.environmentswitch.bean.EnvironmentBean;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
 
 import java.lang.reflect.Method;
 import java.util.List;

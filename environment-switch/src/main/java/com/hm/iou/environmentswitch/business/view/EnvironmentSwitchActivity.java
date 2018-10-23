@@ -1,7 +1,6 @@
 package com.hm.iou.environmentswitch.business.view;
 
 
-import android.content.Context;
 import android.os.Bundle;
 import android.support.v7.widget.DividerItemDecoration;
 import android.support.v7.widget.LinearLayoutManager;
@@ -12,12 +11,10 @@ import android.widget.LinearLayout;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.hm.iou.base.BaseActivity;
 import com.hm.iou.environmentswitch.R;
+import com.hm.iou.environmentswitch.bean.ModuleBean;
 import com.hm.iou.environmentswitch.business.EnvironmentContract;
 import com.hm.iou.environmentswitch.business.EnvironmentSwitchPresenter;
-import com.hm.iou.environmentswitcher.Constants;
-import com.hm.iou.environmentswitcher.bean.ModuleBean;
 
-import java.lang.reflect.Method;
 import java.util.List;
 
 public class EnvironmentSwitchActivity extends BaseActivity<EnvironmentSwitchPresenter> implements EnvironmentContract.View {
