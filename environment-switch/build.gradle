@@ -1,13 +1,14 @@
 apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.hm.plugin.commconfig'
 
 android {
-    compileSdkVersion 26
-
-
+    compileSdkVersion 28
 
     defaultConfig {
-        minSdkVersion 19
-        targetSdkVersion 26
+        minSdkVersion 21
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
@@ -29,9 +30,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-    compile 'com.heima.iou:hmbasebizlocal:1.0.0'
+    api 'com.heima.iou:hmbasebizlocal:1.0.0'
 //    api project(':environment-switch-base')
-    compile 'com.heima.iou:hmenvironmentbase:1.0.0'
+    api 'com.heima.iou:hmenvironmentbase:1.0.0'
 }
 
 apply from: './maven_local.gradle'

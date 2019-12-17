@@ -4,7 +4,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     compileOnly 'com.google.auto.service:auto-service:1.0-rc4'
 //    compile project(':compiler-debug')
-    compile 'com.heima.iou:hmenvironmentcompilerdebug:1.0.0'
+    api 'com.heima.iou:hmenvironmentcompilerdebug:1.0.0'
 }
 
 sourceCompatibility = "1.7"
